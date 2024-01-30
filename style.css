@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600&display=swap");
+
+html {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  height: 100%;
+  /* background-color: #1b2845; */
+  color: white;
+  background: linear-gradient(to bottom right, #0f1c2b, #1d395b, #3b6fad);
+}
+
+.top {
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #335c81;
+  padding: 2rem;
+  margin-top: 4rem;
+  width: 35vw;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: -8px 8px 30px 6px #274060;
+}
+
+.selector {
+  width: inherit;
+  padding: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  box-shadow: 0px 0px 10px 0px #1d395b;
+}
+
+.contents {
+  margin-top: 15px;
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+}
+#select_from,
+#select_to {
+  border: none;
+  color: white;
+  background-color: #335c81;
+}
+
+.inn {
+  color: white;
+  border: none;
+  box-shadow: 0px 0px 14px 1px #07305b;
+  background-color: #335c81;
+  margin: 17px 0px 17px 0px;
+  border-radius: 20px;
+  padding-left: 8px;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  transition: border 0.3s ease; 
+}
+
+.inn::-webkit-inner-spin-button,
+.inn::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inn:focus {
+  border: 2px solid blue;
+  outline: none; /* Remove default focus outline */
+}
+
+
+.container i {
+  transform: scale(2);
+  color: #8bbfff;
+}
+
+.headingsmall {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
