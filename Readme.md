@@ -1,4 +1,4 @@
-# Currency Converter Project Readme
+# Currency Converter Project
 
 ## Introduction
 
